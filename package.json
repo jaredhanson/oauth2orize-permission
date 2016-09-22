@@ -1,0 +1,39 @@
+{
+  "name": "oauth2orize-permission",
+  "version": "0.0.0",
+  "description": "Permission grant for OAuth2orize.",
+  "keywords": [
+    "openid",
+    "oauth2",
+    "idpiframe"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/oauth2orize-permission.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/oauth2orize-permission/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^2.0.0",
+    "chai": "^3.0.0",
+    "chai-oauth2orize-grant": "0.2.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
